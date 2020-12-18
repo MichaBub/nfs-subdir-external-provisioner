@@ -195,5 +195,5 @@ The pipeline adds several labels:
 
 **Important:**
 * The pipeline performs the docker login command using `REGISTRY_USERNAME` and `REGISTRY_TOKEN` secrets, which have to be provided.
-* Another variable REGISTRY is used to specify the exact REGISTRY name (f.e.: quay.io or hub.docker.com)
+* Another variable REGISTRY is used to specify the exact REGISTRY name (f.e.: quay.io or docker.io)
 * You also need to provide the `DOCKER_IMAGE` secret specifying your Docker image name, e.g., `quay.io/[username]/nfs-subdir-external-provisioner`.
